@@ -31,8 +31,8 @@ const Forecast = () => {
           <tr>
             <th>Date</th>
             <th>Weather</th>
+            <th>Low</th>
             <th>High</th>
-            <th>Score</th>
           </tr>
         </thead>
         <tbody>
@@ -41,7 +41,7 @@ const Forecast = () => {
               <td>{day.date}</td>
               <td>{day.icon}</td>
               <td>{day.low}°F</td>
-              <td>{day.score}%</td>
+              <td>{day.high}°F</td>
             </tr>
           ))}
         </tbody>
